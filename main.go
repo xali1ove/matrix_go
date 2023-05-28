@@ -105,7 +105,6 @@ func printMatrix(matrix [][]Block) {
 }
 
 func printGroup(group []Point) {
-	fmt.Println("Largest Group:")
 	for _, point := range group {
 		fmt.Printf("(%d, %d) ", point.Row+1, point.Col+1)
 	}

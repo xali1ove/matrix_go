@@ -20,27 +20,26 @@ cd matrix
 ```bash
 go run main.go
 ```
-Пример запроса:
-
+Вводные данные:
+```bash
 Enter height, width, and number of colors:
-
-6 4 3
-
+5 4 4
+```
+Вывод:
+```bash
 Generated Matrix:
-
-[Color2] [Color3] [Color2] [Color3]
-[Color2] [Color3] [Color2] [Color3]
-[Color2] [Color3] [Color3] [Color1]
-[Color2] [Color3] [Color2] [Color1]
-[Color3] [Color2] [Color1] [Color1]
-[Color2] [Color1] [Color2] [Color1]
-
+[Color3] [Color1] [Color3] [Color3] 
+[Color2] [Color2] [Color2] [Color2] 
+[Color2] [Color2] [Color3] [Color1] 
+[Color3] [Color2] [Color4] [Color1] 
+[Color1] [Color4] [Color4] [Color3] 
 Largest Group:
-(0, 1) (1, 1) (2, 1) (3, 1) (2, 2)
-
+(2, 1) (3, 1) (3, 2) (2, 2) (2, 3) (2, 4) (4, 2) 
 Matrix with Largest Group:
-[Color3]                   
-[Color3]                   
-[Color3] [Color3]          
-[Color3]                   
+                                    
+[Color2] [Color2] [Color2] [Color2] 
+[Color2] [Color2]                   
+         [Color2]                   
+                                    
+```
                                     
