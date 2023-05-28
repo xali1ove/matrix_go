@@ -11,21 +11,21 @@
 
 ## Реализация:
 
-Склонировать проект:
+**Склонировать проект:**
 ```bash
 git clone https://github.com/xali1ove/matrix_go.git matrix
 cd matrix
 ```
-Запуск проекта:
+**Запуск проекта:**
 ```bash
 go run main.go
 ```
-Вводные данные:
+***Вводные данные:***
 ```bash
 Enter height, width, and number of colors:
 5 4 4
 ```
-Вывод:
+***Вывод:***
 ```bash
 Generated Matrix:
 [Color3] [Color1] [Color3] [Color3] 
@@ -41,5 +41,11 @@ Matrix with Largest Group:
 [Color2] [Color2]                   
          [Color2]                   
                                     
+```
+***Тестирование:***
+```bash
+go test -bench test.go
+PASS
+ok      main.go 0.363s
 ```
                                     
