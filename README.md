@@ -14,6 +14,8 @@
 **Склонировать проект:**
 ```bash
 git clone https://github.com/xali1ove/matrix_go.git matrix
+```
+```bash
 cd matrix
 ```
 **Запуск проекта:**
